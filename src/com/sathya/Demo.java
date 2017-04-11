@@ -5,6 +5,7 @@ public class Demo
 	private int stdId;
 	private String stdName;
 	private double stdSalary;
+	private double stdMarks;
 	public int getStdId() {
 		return stdId;
 	}
