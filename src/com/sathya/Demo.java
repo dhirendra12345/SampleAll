@@ -4,6 +4,7 @@ public class Demo
 {
 	private int stdId;
 	private String stdName;
+	private double stdSalary;
 	public int getStdId() {
 		return stdId;
 	}
@@ -15,6 +16,12 @@ public class Demo
 	}
 	public void setStdName(String stdName) {
 		this.stdName = stdName;
+	}
+	public double getStdSalary() {
+		return stdSalary;
+	}
+	public void setStdSalary(double stdSalary) {
+		this.stdSalary = stdSalary;
 	}
 
 }
